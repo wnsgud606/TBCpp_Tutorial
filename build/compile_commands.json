@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jun/TBCpp/build",
+  "command": "g++    -g   -o CMakeFiles/hello.dir/Test/hello.cpp.o -c /home/jun/TBCpp/Test/hello.cpp",
+  "file": "/home/jun/TBCpp/Test/hello.cpp"
+}
+]
