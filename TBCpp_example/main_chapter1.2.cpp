@@ -15,7 +15,7 @@ int main(void)
     sight = 0;
 
     // 1+1 event
-    int cost = num_item / 2*price_per_item; // this code don't work. Just example of comment.
+    //int cost = num_item / 2*price_per_item; // this code don't work. Just example of comment.
 
 
     return 0;
