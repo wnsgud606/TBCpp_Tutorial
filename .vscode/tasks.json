@@ -6,10 +6,10 @@
             "label": "g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${workspaceFolder}/${fileBasenameNoExtension}"
+                "-g",  // complier 
+                "${file}", // complie file
+                "-o", // order -> object file make
+                "${fileDirname}/${fileBasenameNoExtension}" // object file route
             ],
             "problemMatcher": {
                 "fileLocation": [
@@ -28,13 +28,9 @@
             "group": "build"
         },
         {
-            "type": "shell",
             "label": "execute",
-            "command": "cd ${workspaceFolder}/${fileBasenameNoExtension}",
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            }
+            "command": "${fileDirname}/${fileBasenameNoExtension}",  //&& = and     
+            "group": "test"
         },
         {
             "type": "cppbuild",
