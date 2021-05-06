@@ -5,7 +5,7 @@ using namespace std;
 
 void GetNumber()
 {
-// Function name usually consist of a combination of verbs and nouns because that describe the skill of a function
+// The name of a function usually consist of verbs and nouns because it describe the skill of a function
 // FUnction name usually use capital letter.
 }
                    
