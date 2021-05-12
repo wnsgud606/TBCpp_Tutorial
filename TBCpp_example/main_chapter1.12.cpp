@@ -5,7 +5,7 @@
 #include "header/1_12_doSomething.h"
 #include "header/1_12_add.h"
 // Bulid errors don't occur because #include duplicates are prevented by header guards.
-// #include duplicates makes build error
+// #include duplicates make build error
 
 using namespace std;
 
