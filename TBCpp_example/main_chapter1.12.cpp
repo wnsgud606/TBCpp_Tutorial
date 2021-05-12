@@ -12,6 +12,7 @@ using namespace std;
 int main(void)
 {
     doSomething();
+    cout << ad(1,2) << endl;
 
     return 0;
 }
